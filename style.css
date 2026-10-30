@@ -134,3 +134,45 @@ body {
     margin-top: -25px;
   }
 }
+.birthday-wish {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 10px 20px;
+    text-align: center;
+    color: #8b6a60;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    animation: fadeIn 2s ease-in;
+}
+
+.birthday-wish p {
+    margin-bottom: 12px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Sky blue birthday theme */
+body {
+    background: linear-gradient(to bottom, #dff6ff, #87ceeb);
+}
+
+.text {
+    color: #397b9e;
+}
+
+.birthday-wish {
+    color: #397b9e;
+}
+
+.birthday-wish p {
+    color: #397b9e;
+}
