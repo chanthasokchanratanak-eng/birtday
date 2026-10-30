@@ -64,39 +64,39 @@ body {
   height: 18px;
 }
 
+/* Slow and gentle candle flame */
 .fuego:nth-child(1) {
-  animation: fuego 2s 6.5s infinite;
+  animation: fuego 3s 1.5s infinite ease-in-out;
 }
 
 .fuego:nth-child(2) {
-  animation: fuego 1.5s 6.5s infinite;
+  animation: fuego 3.5s 1.5s infinite ease-in-out;
 }
 
 .fuego:nth-child(3) {
-  animation: fuego 1s 6.5s infinite;
+  animation: fuego 4s 1.5s infinite ease-in-out;
 }
 
 .fuego:nth-child(4) {
-  animation: fuego 0.5s 6.5s infinite;
+  animation: fuego 3.2s 1.5s infinite ease-in-out;
 }
 
 .fuego:nth-child(5) {
-  animation: fuego 0.2s 6.5s infinite;
+  animation: fuego 4.5s 1.5s infinite ease-in-out;
 }
 
 /* Fire animation */
 @keyframes fuego {
-  0%,
-  100% {
-    background: rgba(254, 248, 97, 0.5);
-    box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+  0%, 100% {
+    background: rgba(254, 248, 97, 0.9);
+    box-shadow: 0 0 20px 5px rgba(248, 233, 209, 0.3);
     transform: translateY(0) scale(1);
   }
 
   50% {
-    background: rgba(255, 50, 0, 0.1);
-    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    transform: translateY(-20px) scale(0);
+    background: rgba(255, 150, 30, 0.8);
+    box-shadow: 0 0 15px 5px rgba(248, 233, 209, 0.2);
+    transform: translateY(-4px) scale(0.9);
   }
 }
 
